@@ -1,0 +1,108 @@
+<html>
+<head>
+  <title>Sample HTML Page to load utag for the main profile</title>
+</head>
+<body>
+
+<script type="text/javascript">
+var utag_data = {
+  page_name : "", // Contains a user-friendly page name.
+  page_section_name : "", // Contains a user-friendly section, e.g. 'product section'.
+  page_category_name : "", // Contains a user-friendly category name, e.g. 'appliances'.
+  page_subcategory_name : "", // Contains a user-friendly subcategory name, e.g. 'dishwashers'.
+  page_type : "", // Contains a user-friendly page type, e.g. 'cart page'.
+  product_id : "", // Contains product ID(s) - multiple values should be comma-separated.
+  product_sku : "", // Contains product SKU(s) - multiple values should be comma-separated.
+  product_name : "", // Contains product name(s) - multiple values should be comma-separated.
+  product_brand : "", // Contains product brand(s) - multiple values should be comma-separated.
+  product_category : "", // Contains product category(s) - multiple values should be comma-separated.
+  product_unit_price : "", // Contains product unit price(s) - multiple values should be comma-separated.
+  product_quantity : "", // Contains product quantity(s) - multiple values should be comma-separated.
+  product_list_price : "", // Contains product list price(s) before discount - multiple values should be comma-separated.
+  order_id : "", // Contains the order or transaction ID.
+  order_subtotal : "", // Contains the order payment type.
+  order_payment_type : "", // Contains the order payment type.
+  order_total : "", // Contains the order total value.
+  order_discount : "", // Contains the order discount (if any).
+  order_shipping : "", // Contains the order shipping value.
+  order_tax : "", // Contains the order tax amount.
+  order_currency : "", // Contains the currency associated with the transaction, e.g. 'USD'.
+  customer_id : "", // Contains the customer ID.
+  customer_email : "", // Contains the customer email.
+  customer_type : "", // Contains the customer type.
+  search_results : "", // Contains the number of results returned with a search query.
+  search_keyword : "", // Contains the search query conducted by user.
+  site_region : "", // Includes values for region or localized version, e.g. 'en_US'.
+  site_currency : "", // Contains the currency shown on site, e.g. 'USD'.
+  customer_username : "", // Contains the customer's username, e.g. johndoe38.
+  customer_status : "", // Contains the customer's status, e.g. 'logged in'.
+  customer_city : "", // Contains the city portion of the customer's address.
+  customer_state : "", // Contains the state portion of the customer's address.
+  customer_zip : "", // Contains the zip code portion of the customer's address.
+  customer_country : "", // Contains the country portion of the customer's address.
+  event_type : "", // Contains the event type, e.g. link click', 'button click').
+  event_target : "", // Contains the name associated with an interactive element (link, button, etc).
+  event_attr1 : "", // Contains custom attribute 1 associated with an event.
+  event_attr2 : "", // Contains custom attribute 2 associated with an event.
+  event_attr3 : "", // Contains custom attribute 3 associated with an event.
+  event_attr4 : "", // Contains custom attribute 4 associated with an event.
+  product_subcategory : "", // Contains product subcategory(s) - multiple values should be comma-separated.
+  product_discount : "", // Contains product discount(s) - multiple values should be comma-separated.
+  order_coupon_code : "", // Contains the order coupon code.
+  order_coupon_discount : "", // Contains the order coupon discount.
+  order_store : "", // Contains identification information for a store.
+  order_type : "", // Contains type of order/cart.
+  ga_eventaction : "", // 
+  ga_eventCategory : "", // 
+  ga_eventLabel : "", // 
+  ga_eventValue : "", // 
+  ga_events_array : "", // 
+  tealium_event : "", // 
+  search_term : "", // Contains the search term or query submitted by a visitor.
+  search_type : "", // Contains the type of search conducted by the visitor.
+  ge_eventAction : "", // 
+  Prezzie_ID : "", // 
+  Zopim_base_url : "", // 
+  event_name : "", // Tealium variable to identify unique events eg. social_share, user_login, etc.
+  contents : "", // 
+  product_sale_flag : "", // 
+  u.data.product_is_sale : "", // 
+  rakuten_tax_rate : "", // 
+  country_code : "", // 
+  product_discount_amount : "", // 
+  Adgile_id : "", // 
+  collect_fire : "", // 
+  tealium_visitor_id : "", // 
+  adobe_tnta : "" // 
+}
+</script>
+
+<!-- Loading script asynchronously -->
+<script type="text/javascript">
+    (function(a,b,c,d){
+    a='https://tags.tiqcdn.com/utag/success-ramin-hafezi/main/prod/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+
+<h1>Implementing The Tealium Universal Tag</h1>
+
+<p>The script is generated dynamically based on your configuration selections 
+and includes your Data Layer. The Data Layer is generated from the variables 
+listed in the Variables tab.</p>
+
+<h2>To place the code on your website:</h2>
+
+<ol>
+    <li> Ensure you are are getting the code for the correct environment by 
+looking at the navigation on the left. (Dev, QA, Prod)</li>
+    <li> Click on the "Tealium Script" tab above.</li>
+    <li> Click and drag to select all the code.</li>
+    <li> Copy the code.</li>
+    <li> Navigate to the appropriate webpage, and paste 
+the code after the opening BODY tag.</li>
+</ol>
+
+</body>
+</html> 
